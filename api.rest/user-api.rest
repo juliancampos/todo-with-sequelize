@@ -1,0 +1,20 @@
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+   "name": "Alice"
+}
+
+###
+
+GET http://localhost:3001/users
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3001/users/65009676321f1c208e6b35b3
+Content-Type: application/json
+
+{
+   "name": "Alice Campos"
+}

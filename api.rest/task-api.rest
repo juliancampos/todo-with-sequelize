@@ -1,0 +1,20 @@
+POST http://localhost:3001/tasks/user/65009676321f1c208e6b35b3
+Content-Type: application/json
+
+{
+   "name": "Fazer compras"
+}
+
+###
+
+GET http://localhost:3001/tasks
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3001/tasks/65009708a0669b5e38487c40
+Content-Type: application/json
+
+{
+   "name": "Comprar"
+}
